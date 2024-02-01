@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+.nav-part1{
+    display: flex;
+}
+
+.nav-part1 p{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px 10px;
+}
+
+.nav-part1 i{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px 5px;
+}
+
+.nav-part1 p, i {
+    cursor: pointer;
+}
+
+.nav-part2 p{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.nav-part3 button{
+    padding: 3px 10px;
+    font-size: 15px;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+
+.nav-part3-login{
+    background-color: white;
+}
+
+.nav-part3-signup{
+    /* background-color: rgb(255, 128, 0); */
+    background: linear-gradient(to left bottom, rgb(171, 1, 1), rgb(2, 2, 167));
+    color: white;
+}
+
+.nav-part3 button:hover {
+    cursor: pointer;
+}
+
+.mid-heading {
+    width: 100%;
+    font-size: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+#img2{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img3{
+    transform: translate(-50%, -50%) rotate(-5deg);
+}
+
+#btm-left{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+#btm-right{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    right: 5%;
+    bottom: 5%;
+}
+
+#btm-right i{
+    padding: 5px 10px;
+}
+
+.adv-set{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 67%;
+    left: 53%;
+    transform: translate(-70%, -53%);
+    
+}
+
+.adv-set i{
+    /* border: 1px red solid; */
+    padding: 4px 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.adv-set h4{
+    /* border: 1px red solid; */
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: white;
+    text-transform: uppercase;
+}
